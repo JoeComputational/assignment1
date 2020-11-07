@@ -1,4 +1,4 @@
-.toppagecontainer {
+header {
   display: flex;
   flex-direction: column;
 }
@@ -8,16 +8,31 @@
   justify-content: space-between;
 }
 
-.navbaricon {
-  display: inline-block;
-}
-
 .bannertop {
   display: block;
+  max-width: 100%;
 }
 
 .bannertop img {
   max-width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  bottom: 0%;
+}
+
+.footericons {
+  display: flex;
+  position: fixed;
+  bottom: 0%;
+}
+
+.footerbanner {
+  display: flex;
+  position: fixed;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
