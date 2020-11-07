@@ -1,0 +1,20 @@
+.toppagecontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarwrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.navbaricon{
+    display: inline-block;
+    // justify-content: space-between;
+    // text-align: center;
+}
+.bannertop{
+    display: block;
+}
+.bannertop img{
+    max-width: 100%;
+}
