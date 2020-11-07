@@ -1,8 +1,19 @@
+@media only screen and (min-width: 225px) {
 body{
     background-image: url(../images/background.png);
    background-size: cover;
-   max-width: 100%;
+//    min-height: 100%;
 //    background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+//    background-repeat: no-repeat;
+}
+}
+
+@media only screen and(max-width:224px){
+    body{
+        background-color: lightblue;
+    }
 }
 
 header {
@@ -23,7 +34,9 @@ header {
     max-width: 100%;
 }
 
+
 // Home page infill - this is the crux of the body segment.
+
 
 .indexinfill{
     justify-content: space-around;
@@ -34,7 +47,21 @@ h1{
     justify-content: center;
     text-align: center;
     color: #d8940b;
+    font-size: xx-large;
+    padding-top: 1em;
+}
+h2{
+    justify-content: center;
+    text-align: center;
+    color: #d8940b;
     font-size: x-large;
+    padding-top: 1em;
+}
+h3{
+    justify-content: center;
+    text-align: center;
+    color: #d8940b;
+    font-size: large;
     padding-top: 1em;
 }
 p{
@@ -63,3 +90,44 @@ footer{
     position: fixed;
     justify-content: center;
 }
+
+
+
+
+
+/* Header/Blog Title */
+.bloghead {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  .placeholderimage {
+    background-color: #aaa;
+    width: 100%;
+  }
+  
+  .blogpost {
+    // background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: thin inset black;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn,
+  .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }

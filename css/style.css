@@ -1,9 +1,16 @@
-body {
-  background-image: url(../images/background.png);
-  background-size: cover;
-  max-width: 100%;
+@media only screen and (min-width: 225px) {
+  body {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
-
+@media only screen and (max-width: 224px) {
+  body {
+    background-color: lightblue;
+  }
+}
 header {
   display: flex;
   flex-direction: column;
@@ -32,7 +39,23 @@ h1 {
   justify-content: center;
   text-align: center;
   color: #d8940b;
+  font-size: xx-large;
+  padding-top: 1em;
+}
+
+h2 {
+  justify-content: center;
+  text-align: center;
+  color: #d8940b;
   font-size: x-large;
+  padding-top: 1em;
+}
+
+h3 {
+  justify-content: center;
+  text-align: center;
+  color: #d8940b;
+  font-size: large;
   padding-top: 1em;
 }
 
@@ -60,6 +83,41 @@ footer {
   display: flex;
   position: fixed;
   justify-content: center;
+}
+
+/* Header/Blog Title */
+.bloghead {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  opacity: 1;
+}
+
+.placeholderimage {
+  background-color: #aaa;
+  width: 100%;
+}
+
+.blogpost {
+  padding: 20px;
+  margin-top: 20px;
+  border: thin inset black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+.rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
