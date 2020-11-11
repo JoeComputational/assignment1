@@ -30,6 +30,24 @@ header {
   max-width: 100%;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footericons {
+  display: flex;
+  flex-wrap: 0;
+  position: fixed;
+  bottom: 0%;
+}
+
+.footerbanner {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+}
+
 .indexinfill {
   justify-content: space-around;
   margin-bottom: 50px;
@@ -67,24 +85,6 @@ p {
   padding-bottom: 2em;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-}
-
-.footericons {
-  display: flex;
-  flex-wrap: 0;
-  position: fixed;
-  bottom: 0%;
-}
-
-.footerbanner {
-  display: flex;
-  position: fixed;
-  justify-content: center;
-}
-
 /* Header/Blog Title */
 .bloghead {
   padding: 30px;
@@ -118,6 +118,15 @@ footer {
     width: 100%;
     padding: 0;
   }
+}
+.resumecontainer {
+  padding: 3%;
+  text-align: center;
+}
+
+.resumecontainer a {
+  display: inline-block;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

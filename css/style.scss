@@ -34,6 +34,26 @@ header {
     max-width: 100%;
 }
 
+// FOOTER LAYOUT - for copyright and nav links
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footericons{
+    display: flex;
+    flex-wrap: 0;
+    position: fixed;
+    bottom: 0%;
+}
+.footerbanner {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+}
+
+
 
 // Home page infill - this is the crux of the body segment.
 
@@ -74,23 +94,6 @@ p{
 
 
 
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-.footericons{
-    display: flex;
-    flex-wrap: 0;
-    position: fixed;
-    bottom: 0%;
-}
-.footerbanner {
-    display: flex;
-    position: fixed;
-    justify-content: center;
-}
-
 
 
 
@@ -115,6 +118,7 @@ footer{
     border: thin inset black;
   }
   
+  
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -131,3 +135,16 @@ footer{
       padding: 0;
     }
   }
+
+//   CONTACT ME PAGE
+
+.resumecontainer{
+    padding: 3%;
+    text-align: center;
+}
+
+.resumecontainer a{
+    display: inline-block;
+    text-align: center;
+    
+}
