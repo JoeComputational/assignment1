@@ -110,9 +110,14 @@ p{
     opacity: 1;
   }
   
-  .placeholderimage {
-    background-color: #aaa;
+  .blogimage {
     width: 100%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+  overflow: hidden;
+//   object-fit: initial;
+
   }
   
   .blogpost {
@@ -122,7 +127,6 @@ p{
     border: thin inset black;
   }
   
-
   /* Clear floats after the columns */
   .row:after {
     content: "";
