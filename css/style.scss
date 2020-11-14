@@ -5,6 +5,9 @@
    font-family: 'Source Code Pro', monospace;
 }
 
+// SCSS STYLING FOR HEADINGS COLOURS AND TEXT COLOURS
+$headings-color: #f7c744;
+$text-color:#0a3038;
 
 
 //  MEDIA BREAK POINTS FOR BACKGROUND ADAPTABILITY AND PAGE ADAPTABILITY TO SCREEN SIZE
@@ -41,7 +44,7 @@ header {
     flex-direction: column;
 }
 
-.navbarwrapper{
+nav {
     display: flex;
     justify-content: space-between;
 }
@@ -95,7 +98,7 @@ main{
 h1{
     justify-content: center;
     text-align: center;
-    color: #f7c744;
+    color: $headings-color;
     font-size: xx-large;
     padding-top: 1em;
 }
@@ -103,7 +106,7 @@ h1{
 h2{
     justify-content: center;
     text-align: center;
-    color: #f7c744;
+    color: $headings-color;
     font-size: x-large;
     padding-top: 1em;
 }
@@ -111,7 +114,7 @@ h2{
 h3{
     justify-content: center;
     text-align: center;
-    color: #f7c744;
+    color: $headings-color;
     font-size: large;
     padding-top: 1em;
 }
@@ -119,7 +122,7 @@ h3{
 p{
     justify-content: center;
     text-align: center;
-    color: #0a3038;
+    color: $text-color;
   font-size: large;
   padding-bottom: 2em;
 }
@@ -136,7 +139,7 @@ p{
     opacity: 1;
   }
   
-  .blogimage {
+  figure {
     width: 100%;
     height: auto;
     align-content: center;
@@ -145,10 +148,10 @@ p{
 
   }
   
-  .blogpost {
+  section {
     padding: 20px;
     margin-top: 20px;
-    border:thin groove #f7c744;
+    border:thin groove $headings-color;
   }
   
   // CLEAR SPACES BETWEEN BLOG 'cards'
@@ -213,7 +216,7 @@ input[type=text], select, textarea {
   
 //   THIS IS THE STYLING OF THE FORMS SUBMIT BUTTON
   input[type=submit] {
-    background-color: #f7c744;
+    background-color: $headings-color;
     color: white;
     padding: 12px 20px;
     border: none;
