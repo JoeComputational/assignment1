@@ -1,22 +1,40 @@
+
+// THIS SETS THE FONT FOR ALL PAGES USING - *
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 * {
-    font-family: 'Source Code Pro', monospace;
+   font-family: 'Source Code Pro', monospace;
 }
 
+
+
+//  MEDIA BREAK POINTS FOR BACKGROUND ADAPTABILITY AND PAGE ADAPTABILITY TO SCREEN SIZE
+//  CHANGES TO LIGHT BLUE WHEN UNRESPONSIVE AT 224 PX 
+//  KEEPS EVERYTHING CENTERED
 @media only screen and (min-width: 225px) {
-body{
+  body{
     background-image: url(../images/background.png);
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
-}
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
 
 @media only screen and(max-width:224px){
     body{
-        background-color: lightblue;
+      background-color: lightblue;
     }
 }
+
+@media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
+  body {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+    }
+
+
+//  THIS IS THE HEADER BANNER AND NAVBAR THAT IS CARRIED OUT THROUGHOUT THE SITE - ON ALL PAGES
 
 header {
     display: flex;
@@ -35,6 +53,8 @@ header {
 .bannertop img{
     max-width: 100%;
 }
+
+
 
 // FOOTER LAYOUT - for copyright and nav links
 
@@ -59,14 +79,14 @@ footer{
 
 
 
-// Home page infill - this is the crux of the body segment.
+// HOME PAGE LAYOUT AND INFILL - CRUX OF INDEX.HTML 
 
 
 .indexinfill{
     justify-content: space-around;
     margin-bottom: 50px;
 }
-
+//  H1 STYLING THAT IS CARRIED OUT THROUGH THE ENTIREWEBSITE
 h1{
     justify-content: center;
     text-align: center;
@@ -74,6 +94,7 @@ h1{
     font-size: xx-large;
     padding-top: 1em;
 }
+//  H2 STYLING THAT IS CARRIED OUT THROUGH THE ENTIRE WEBSITE
 h2{
     justify-content: center;
     text-align: center;
@@ -81,6 +102,7 @@ h2{
     font-size: x-large;
     padding-top: 1em;
 }
+//  H3 STYLING THAT IS CARRIED OUT THROUGH THE ENTIRE WEBSITE
 h3{
     justify-content: center;
     text-align: center;
@@ -88,6 +110,7 @@ h3{
     font-size: large;
     padding-top: 1em;
 }
+//  P STYLING THAT IS CARRIED OUT THROUGH THE ENTIRE WEBSITE
 p{
     justify-content: center;
     text-align: center;
@@ -100,9 +123,7 @@ p{
 
 
 
-
-
-/* Header/Blog Title */
+// BLOG PAGE STYLING NOTES - MAJORITY USING DIV CLASSES
 .bloghead {
     padding: 30px;
     font-size: 40px;
@@ -122,10 +143,10 @@ p{
   .blogpost {
     padding: 20px;
     margin-top: 20px;
-    border: thin inset black;
+    border:thin groove #f7c744;
   }
   
-  /* Clear floats after the columns */
+  // CLEAR SPACES BETWEEN BLOG 'cards'
   .row:after {
     content: "";
     display: table;
@@ -133,7 +154,7 @@ p{
   }
   
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+// RESPONSIVE LAYOUT FOR THE ROWS IN BLOG
   @media screen and (max-width: 800px) {
     .row{
       width: 100%;
@@ -141,14 +162,17 @@ p{
     }
   }
 
-//   CONTACT ME PAGE
 
+
+
+//   CONTACT ME PAGE
+  // THIS IS THE CONTAINER HOLDING THE PDF DOWNLOAD FOR RESUME
 .resumecontainer{
     padding: 3%;
     text-align: center;
 }
 
-
+//  DIV THAT WRAPS THE CONTACT FORMS AS A WHOLE
 .contacty{
   display: flex;
   width: auto;
@@ -156,6 +180,7 @@ p{
   justify-content: center;
 }
 
+//  SMALLER INTERNAL DIVS THAT HOST THE CONTACT FORM
 .formcontainer{
   display: flex;
   width: 60%;
@@ -167,22 +192,21 @@ p{
 }
 
 
-// spicy little contact form
-/* Style inputs with type="text", select elements and textareas */
+//  ACTUAL CONTACT FORM LAYOUT
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
     text-align: center;
     justify-content: center;
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; 
   }
   
-  /* Style the submit button with a specific background color etc */
+//   THIS IS THE STYLING OF THE FORMS SUBMIT BUTTON
   input[type=submit] {
     background-color: #f7c744;
     color: white;
@@ -196,17 +220,9 @@ input[type=text], select, textarea {
     align-content: center;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+// THIS CHANGES THE COLOUR OF THE SUBMIT BUTTON WHEN HOVERED OVER WITH A MOUSE
   input[type=submit]:hover {
     background-color: #419aaa;
   }
   
-
-  @media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
-body {
-  width: 100%;
-  text-align: center;
-  justify-content: center;
-}
-  }
  
