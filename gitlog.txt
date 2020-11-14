@@ -1,0 +1,143 @@
+commit 1cdc7dcd2d09dba687d76614564f0ac3cce5e426
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 14 17:45:39 2020 +1000
+
+    Website is complete and live - Happy with project
+
+commit a083fa2fa8a37e099554b5371781293a7d5b63b7
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 14 15:34:08 2020 +1000
+
+    Have created T1A2 task file and directories to submit - website complete
+
+commit 1431e6a703668a71ccb0c9cb5b44c742c16af8a3
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 14 14:47:58 2020 +1000
+
+    Added Screenshots and wireframes folder to rep
+
+commit a887509e37f7bee61aa56f0775eac855ef158028
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 14 14:37:28 2020 +1000
+
+    Tidied up all semantic elements and corrected corrolated CSS file - added SCSS colour variables for ease of use
+
+commit 99fbb3afc24628f8310986126a437c448c213c49
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 14 13:45:21 2020 +1000
+
+    Testing SRI hash key for index.html on live server
+
+commit f031a5d820b2ccab54ac1e6e325b6b8f03f17a65
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 14 10:45:58 2020 +1000
+
+    Tidied up SCSS and CSS styling - fixed Social links to now direct to my socials
+
+commit ae4b11f8019918c66392a7a8aec82297904eb649
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 14 10:09:37 2020 +1000
+
+    Fixed up centering on contact page - as wellas on projects page!
+
+commit 1fc3dd581a4eb0088eea1884634d957623c5a14b
+Author: JoeComputational <userade11@gmail.com>
+Date:   Fri Nov 13 09:27:52 2020 +1000
+
+    Changed home page slightly - changed name on page
+
+commit a1c8b771d9f564781de4ea8e11ed1808190209a2
+Author: JoeComputational <userade11@gmail.com>
+Date:   Thu Nov 12 11:53:05 2020 +1000
+
+    Filled out blog posts with responsive pictures
+
+commit fe68544e2cb2a516df9f36a9d25c0f98770635e8
+Author: JoeComputational <userade11@gmail.com>
+Date:   Thu Nov 12 11:06:32 2020 +1000
+
+    Added links to the download page
+
+commit 05a1aaca833a4af3bbd0a6eb365329a8ef047f9a
+Author: JoeComputational <userade11@gmail.com>
+Date:   Thu Nov 12 10:41:11 2020 +1000
+
+    Added downloads.html - shows favourite software. updated picture sizes and links to be more efficient
+
+commit 40f356a76d22d2f0dc8502f0684dd90251de686a
+Author: JoeComputational <userade11@gmail.com>
+Date:   Thu Nov 12 09:52:58 2020 +1000
+
+    Filled in a bit of previous projects - centered and looking good!
+
+commit 59d4a01850f74edd529219247c4ea6cd3ce1b8e5
+Author: JoeComputational <userade11@gmail.com>
+Date:   Thu Nov 12 09:48:03 2020 +1000
+
+    Finally fixed the footer! its no longer acting sticky and stays down the bottom of the pagegit add .git add .!
+
+commit f866fa8d0c5cd94dda5740314279b6dfd6aba9a3
+Author: JoeComputational <userade11@gmail.com>
+Date:   Thu Nov 12 09:00:30 2020 +1000
+
+    Moved the fotter tags in the scss document - and added resume new tab
+
+commit adbae9cdabbaccb173215225ec640e4cf03d880f
+Author: JoeComputational <userade11@gmail.com>
+Date:   Thu Nov 12 08:13:53 2020 +1000
+
+    Added Home to the naviagation bar
+
+commit e751338166fee989fec71db5f41fe7fd13144009
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 22:06:19 2020 +1000
+
+    Filled in most of the blog outline - not 100% happy with it at the moment
+
+commit 1743fc26a5914ac5fab9cdf24b40529e51acea30
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 22:04:34 2020 +1000
+
+    Filled in most of the blog outline - not 100% happy with it at the moment
+
+commit df3ac95f7fc8d5fd5a5d92bd777c1608fcc4b083
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 21:32:40 2020 +1000
+
+    imported a background image - still working on footer
+
+commit 0a1bddceb845b6b4d33913ff184fd203744a5517
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 20:36:46 2020 +1000
+
+    index page has been filled in - Need to fluff it out more - looks empty
+
+commit 3084eb05f14ed8924ce701a75ddb1a0cbbb82784
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 20:02:36 2020 +1000
+
+    html page stylings done - now to finish pages
+
+commit 56f00bca92761e0e55ccefe3c4ce2e01acea7552
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 19:58:21 2020 +1000
+
+    header and footer sylings done for all html documents - time to infill
+
+commit 846cc7d702e45e8e3d14d88086fd24fe7aa045e3
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 14:57:53 2020 +1000
+
+    Major commit - SCSS styling for nav bar and banner pic done
+
+commit f545607394ede6bae4ae11e58de39d632ed4515b
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 14:02:07 2020 +1000
+
+    Implemented header and top navigation bar basic layout in html
+
+commit 02d1c6e7f0d90222beaa46ad3bdf8c26312d1560
+Author: JoeComputational <userade11@gmail.com>
+Date:   Sat Nov 7 13:58:26 2020 +1000
+
+    First commit - page layout
