@@ -25,7 +25,7 @@
     }
 }
 
-@media only screen and (max-width: 600px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 600px){
   body {
     width: 100%;
     text-align: center;
@@ -49,9 +49,13 @@ header {
 .bannertop{
     display: block;
     max-width: 100%;
+    position: relative;
 }
 .bannertop img{
-    max-width: 100%;
+  display: block;  
+  max-width: 100%;
+  margin: auto;
+  margin-right: 0%;
 }
 
 
@@ -82,9 +86,10 @@ footer{
 // HOME PAGE LAYOUT AND INFILL - CRUX OF INDEX.HTML 
 
 
-.indexinfill{
+main{
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin: auto;
+    margin-bottom: 40px;
 }
 //  H1 STYLING THAT IS CARRIED OUT THROUGH THE ENTIREWEBSITE
 h1{
